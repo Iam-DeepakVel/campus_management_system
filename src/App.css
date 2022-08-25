@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -28,6 +29,53 @@
   color: #61dafb;
 }
 
+.navbar{
+  display: flex;
+  max-width: 100%;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+
+.navbar{
+  background-color: #1e2533;
+}
+
+.navbar h1{
+  color: #ffffffc4;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  margin-left: 40px;
+}
+
+.navbar h1:hover{
+  transform: scale(1.09);
+  }
+  
+.links{
+  margin-right: 80px;
+}
+
+
+  .links a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px; 
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .links a:hover{
+    color: #ffffff;
+    transform: scale(1.09);
+
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +84,7 @@
     transform: rotate(360deg);
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

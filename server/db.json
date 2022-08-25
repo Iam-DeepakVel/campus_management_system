@@ -1,0 +1,28 @@
+{
+  "building": [
+    {
+      "Bname": "Building T-201",
+      "Bstatus": "active",
+      "Cid": 2,
+      "id": 1
+    },
+    {
+      "Bname": "Building L",
+      "Bstatus": "inactive",
+      "Cid": 2,
+      "id": 2
+    }
+  ],
+  "campus": [
+    {
+      "name": "CampusA",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "name": "CampusB",
+      "status": "inactive",
+      "id": 2
+    }
+  ]
+}
